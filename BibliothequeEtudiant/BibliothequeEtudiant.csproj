@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{196420C2-7100-488A-8CB9-AFCC83BA545C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BibliothequeEtudiant</RootNamespace>
+    <AssemblyName>BibliothequeEtudiant</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Bibliotheque.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ApiBibliotheque, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bibliotheque\dll\ApiBibliotheque.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="documentation\html\annotated.html" />
+    <Content Include="documentation\html\bc_s.png" />
+    <Content Include="documentation\html\bdwn.png" />
+    <Content Include="documentation\html\classes.html" />
+    <Content Include="documentation\html\class_api_bibliotheque_1_1_adherent-members.html" />
+    <Content Include="documentation\html\class_api_bibliotheque_1_1_adherent.html" />
+    <Content Include="documentation\html\class_api_bibliotheque_1_1_emprunt-members.html" />
+    <Content Include="documentation\html\class_api_bibliotheque_1_1_emprunt.html" />
+    <Content Include="documentation\html\class_api_bibliotheque_1_1_livre-members.html" />
+    <Content Include="documentation\html\class_api_bibliotheque_1_1_livre.html" />
+    <Content Include="documentation\html\closed.png" />
+    <Content Include="documentation\html\dir_449c00c56d13b0a55ada214b7e671996.html" />
+    <Content Include="documentation\html\dir_6fe3d92e4b5bacc495c93e6c4918010b.html" />
+    <Content Include="documentation\html\dir_be3458287530fc19739fb5514ca7874c.html" />
+    <Content Include="documentation\html\dir_d522931ffa1371640980b621734a4381.html" />
+    <Content Include="documentation\html\dir_e8d6f202eff5716b921165c64af4e758.html" />
+    <Content Include="documentation\html\dir_f95c25953bb7a2cee2163daa3063541e.html" />
+    <Content Include="documentation\html\doc.png" />
+    <Content Include="documentation\html\doxygen.css" />
+    <Content Include="documentation\html\doxygen.png" />
+    <Content Include="documentation\html\dynsections.js" />
+    <Content Include="documentation\html\folderclosed.png" />
+    <Content Include="documentation\html\folderopen.png" />
+    <Content Include="documentation\html\functions.html" />
+    <Content Include="documentation\html\functions_func.html" />
+    <Content Include="documentation\html\functions_prop.html" />
+    <Content Include="documentation\html\index.html" />
+    <Content Include="documentation\html\jquery.js" />
+    <Content Include="documentation\html\menu.js" />
+    <Content Include="documentation\html\menudata.js" />
+    <Content Include="documentation\html\namespaces.html" />
+    <Content Include="documentation\html\namespace_api_bibliotheque.html" />
+    <Content Include="documentation\html\nav_f.png" />
+    <Content Include="documentation\html\nav_g.png" />
+    <Content Include="documentation\html\nav_h.png" />
+    <Content Include="documentation\html\open.png" />
+    <Content Include="documentation\html\search\all_0.html" />
+    <Content Include="documentation\html\search\all_0.js" />
+    <Content Include="documentation\html\search\all_1.html" />
+    <Content Include="documentation\html\search\all_1.js" />
+    <Content Include="documentation\html\search\all_2.html" />
+    <Content Include="documentation\html\search\all_2.js" />
+    <Content Include="documentation\html\search\all_3.html" />
+    <Content Include="documentation\html\search\all_3.js" />
+    <Content Include="documentation\html\search\all_4.html" />
+    <Content Include="documentation\html\search\all_4.js" />
+    <Content Include="documentation\html\search\all_5.html" />
+    <Content Include="documentation\html\search\all_5.js" />
+    <Content Include="documentation\html\search\all_6.html" />
+    <Content Include="documentation\html\search\all_6.js" />
+    <Content Include="documentation\html\search\all_7.html" />
+    <Content Include="documentation\html\search\all_7.js" />
+    <Content Include="documentation\html\search\all_8.html" />
+    <Content Include="documentation\html\search\all_8.js" />
+    <Content Include="documentation\html\search\all_9.html" />
+    <Content Include="documentation\html\search\all_9.js" />
+    <Content Include="documentation\html\search\all_a.html" />
+    <Content Include="documentation\html\search\all_a.js" />
+    <Content Include="documentation\html\search\all_b.html" />
+    <Content Include="documentation\html\search\all_b.js" />
+    <Content Include="documentation\html\search\classes_0.html" />
+    <Content Include="documentation\html\search\classes_0.js" />
+    <Content Include="documentation\html\search\classes_1.html" />
+    <Content Include="documentation\html\search\classes_1.js" />
+    <Content Include="documentation\html\search\classes_2.html" />
+    <Content Include="documentation\html\search\classes_2.js" />
+    <Content Include="documentation\html\search\close.png" />
+    <Content Include="documentation\html\search\functions_0.html" />
+    <Content Include="documentation\html\search\functions_0.js" />
+    <Content Include="documentation\html\search\functions_1.html" />
+    <Content Include="documentation\html\search\functions_1.js" />
+    <Content Include="documentation\html\search\functions_2.html" />
+    <Content Include="documentation\html\search\functions_2.js" />
+    <Content Include="documentation\html\search\functions_3.html" />
+    <Content Include="documentation\html\search\functions_3.js" />
+    <Content Include="documentation\html\search\functions_4.html" />
+    <Content Include="documentation\html\search\functions_4.js" />
+    <Content Include="documentation\html\search\mag_sel.png" />
+    <Content Include="documentation\html\search\namespaces_0.html" />
+    <Content Include="documentation\html\search\namespaces_0.js" />
+    <Content Include="documentation\html\search\nomatches.html" />
+    <Content Include="documentation\html\search\properties_0.html" />
+    <Content Include="documentation\html\search\properties_0.js" />
+    <Content Include="documentation\html\search\properties_1.html" />
+    <Content Include="documentation\html\search\properties_1.js" />
+    <Content Include="documentation\html\search\properties_2.html" />
+    <Content Include="documentation\html\search\properties_2.js" />
+    <Content Include="documentation\html\search\properties_3.html" />
+    <Content Include="documentation\html\search\properties_3.js" />
+    <Content Include="documentation\html\search\properties_4.html" />
+    <Content Include="documentation\html\search\properties_4.js" />
+    <Content Include="documentation\html\search\properties_5.html" />
+    <Content Include="documentation\html\search\properties_5.js" />
+    <Content Include="documentation\html\search\properties_6.html" />
+    <Content Include="documentation\html\search\properties_6.js" />
+    <Content Include="documentation\html\search\properties_7.html" />
+    <Content Include="documentation\html\search\properties_7.js" />
+    <Content Include="documentation\html\search\properties_8.html" />
+    <Content Include="documentation\html\search\properties_8.js" />
+    <Content Include="documentation\html\search\properties_9.html" />
+    <Content Include="documentation\html\search\properties_9.js" />
+    <Content Include="documentation\html\search\search.css" />
+    <Content Include="documentation\html\search\search.js" />
+    <Content Include="documentation\html\search\searchdata.js" />
+    <Content Include="documentation\html\search\search_l.png" />
+    <Content Include="documentation\html\search\search_m.png" />
+    <Content Include="documentation\html\search\search_r.png" />
+    <Content Include="documentation\html\splitbar.png" />
+    <Content Include="documentation\html\sync_off.png" />
+    <Content Include="documentation\html\sync_on.png" />
+    <Content Include="documentation\html\tabs.css" />
+    <Content Include="documentation\html\tab_a.png" />
+    <Content Include="documentation\html\tab_b.png" />
+    <Content Include="documentation\html\tab_h.png" />
+    <Content Include="documentation\html\tab_s.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

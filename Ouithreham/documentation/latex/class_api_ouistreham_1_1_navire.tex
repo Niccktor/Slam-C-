@@ -1,0 +1,126 @@
+\hypertarget{class_api_ouistreham_1_1_navire}{}\section{Référence de la classe Api\+Ouistreham.\+Navire}
+\label{class_api_ouistreham_1_1_navire}\index{Api\+Ouistreham.\+Navire@{Api\+Ouistreham.\+Navire}}
+
+
+Représente un navire  
+
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_api_ouistreham_1_1_navire_aa570acf88770400f8d2702256dce5a21}{Navire} (string num\+C\+IN, string nom\+Navire)
+\begin{DoxyCompactList}\small\item\em Initialise un navire à partir d\textquotesingle{}un numéro C\+IN de navire et d\textquotesingle{}un nom de navire \end{DoxyCompactList}\item 
+void \hyperlink{class_api_ouistreham_1_1_navire_ab9e8ee30d5c11742d5127c3af6acdba2}{Decharger} (int quantite\+Decharger)
+\begin{DoxyCompactList}\small\item\em Diminue la quantité de fret \end{DoxyCompactList}\item 
+bool \hyperlink{class_api_ouistreham_1_1_navire_af985f63194e727c05a19a7493e8cf4b4}{Est\+Decharger} ()
+\begin{DoxyCompactList}\small\item\em Indique si la quantié de fret est égale à 0 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Propriétés}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_api_ouistreham_1_1_navire_ac8267ba06c607b546aeef33d706cef20}{No\+C\+IN}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtient le numéro du navire \end{DoxyCompactList}\item 
+string \hyperlink{class_api_ouistreham_1_1_navire_a3aff174dcbc00d36093a3f8298b4e840}{Nom\+Navire}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtient ou définit le nom du navire \end{DoxyCompactList}\item 
+string \hyperlink{class_api_ouistreham_1_1_navire_a68c36073e4a1d2a9bf4c0eb35ea8d5f4}{Libelle\+Fret}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtient ou définit le libellé du fret (le nom de la marchandise) \end{DoxyCompactList}\item 
+int \hyperlink{class_api_ouistreham_1_1_navire_a1a539404b69c16933471924afb87596c}{Quantite\+Fret}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtient ou définit la quantité de fret restant à décharger, dite quantité courante \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Représente un navire 
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_api_ouistreham_1_1_navire_aa570acf88770400f8d2702256dce5a21}\label{class_api_ouistreham_1_1_navire_aa570acf88770400f8d2702256dce5a21}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!Navire@{Navire}}
+\index{Navire@{Navire}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{Navire()}{Navire()}}
+{\footnotesize\ttfamily Api\+Ouistreham.\+Navire.\+Navire (\begin{DoxyParamCaption}\item[{string}]{num\+C\+IN,  }\item[{string}]{nom\+Navire }\end{DoxyParamCaption})}
+
+
+
+Initialise un navire à partir d\textquotesingle{}un numéro C\+IN de navire et d\textquotesingle{}un nom de navire 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em num\+C\+IN} & Le numéro C\+IN du navire\\
+\hline
+{\em nom\+Navire} & Le nom du navire\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_api_ouistreham_1_1_navire_ab9e8ee30d5c11742d5127c3af6acdba2}\label{class_api_ouistreham_1_1_navire_ab9e8ee30d5c11742d5127c3af6acdba2}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!Decharger@{Decharger}}
+\index{Decharger@{Decharger}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{Decharger()}{Decharger()}}
+{\footnotesize\ttfamily void Api\+Ouistreham.\+Navire.\+Decharger (\begin{DoxyParamCaption}\item[{int}]{quantite\+Decharger }\end{DoxyParamCaption})}
+
+
+
+Diminue la quantité de fret 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em quantite\+Decharger} & Diminue la quantité de fret\\
+\hline
+\end{DoxyParams}
+$<$remark$>$Si la quantité à décharger est supérieure à la quantité de Fret, l\textquotesingle{}opération n\textquotesingle{}a pas lieu$<$/remark$>$ \mbox{\Hypertarget{class_api_ouistreham_1_1_navire_af985f63194e727c05a19a7493e8cf4b4}\label{class_api_ouistreham_1_1_navire_af985f63194e727c05a19a7493e8cf4b4}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!Est\+Decharger@{Est\+Decharger}}
+\index{Est\+Decharger@{Est\+Decharger}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{Est\+Decharger()}{EstDecharger()}}
+{\footnotesize\ttfamily bool Api\+Ouistreham.\+Navire.\+Est\+Decharger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Indique si la quantié de fret est égale à 0 
+
+\begin{DoxyReturn}{Renvoie}
+Vrai si la quantité de fret est égale à 0, faux dans le cas contraire
+\end{DoxyReturn}
+
+
+\subsection{Documentation des propriétés}
+\mbox{\Hypertarget{class_api_ouistreham_1_1_navire_a68c36073e4a1d2a9bf4c0eb35ea8d5f4}\label{class_api_ouistreham_1_1_navire_a68c36073e4a1d2a9bf4c0eb35ea8d5f4}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!Libelle\+Fret@{Libelle\+Fret}}
+\index{Libelle\+Fret@{Libelle\+Fret}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{Libelle\+Fret}{LibelleFret}}
+{\footnotesize\ttfamily string Api\+Ouistreham.\+Navire.\+Libelle\+Fret\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtient ou définit le libellé du fret (le nom de la marchandise) 
+
+\mbox{\Hypertarget{class_api_ouistreham_1_1_navire_ac8267ba06c607b546aeef33d706cef20}\label{class_api_ouistreham_1_1_navire_ac8267ba06c607b546aeef33d706cef20}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!No\+C\+IN@{No\+C\+IN}}
+\index{No\+C\+IN@{No\+C\+IN}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{No\+C\+IN}{NoCIN}}
+{\footnotesize\ttfamily string Api\+Ouistreham.\+Navire.\+No\+C\+IN\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtient le numéro du navire 
+
+\mbox{\Hypertarget{class_api_ouistreham_1_1_navire_a3aff174dcbc00d36093a3f8298b4e840}\label{class_api_ouistreham_1_1_navire_a3aff174dcbc00d36093a3f8298b4e840}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!Nom\+Navire@{Nom\+Navire}}
+\index{Nom\+Navire@{Nom\+Navire}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{Nom\+Navire}{NomNavire}}
+{\footnotesize\ttfamily string Api\+Ouistreham.\+Navire.\+Nom\+Navire\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtient ou définit le nom du navire 
+
+\mbox{\Hypertarget{class_api_ouistreham_1_1_navire_a1a539404b69c16933471924afb87596c}\label{class_api_ouistreham_1_1_navire_a1a539404b69c16933471924afb87596c}} 
+\index{Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}!Quantite\+Fret@{Quantite\+Fret}}
+\index{Quantite\+Fret@{Quantite\+Fret}!Api\+Ouistreham\+::\+Navire@{Api\+Ouistreham\+::\+Navire}}
+\subsubsection{\texorpdfstring{Quantite\+Fret}{QuantiteFret}}
+{\footnotesize\ttfamily int Api\+Ouistreham.\+Navire.\+Quantite\+Fret\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Obtient ou définit la quantité de fret restant à décharger, dite quantité courante 
+

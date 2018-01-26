@@ -1,0 +1,91 @@
+\hypertarget{class_api_ouistreham_1_1_persistance}{}\section{Référence de la classe Api\+Ouistreham.\+Persistance}
+\label{class_api_ouistreham_1_1_persistance}\index{Api\+Ouistreham.\+Persistance@{Api\+Ouistreham.\+Persistance}}
+
+
+Classe permetant de charger et de sauvegarder des collections de l\textquotesingle{}Api Ouistreham  
+
+
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \hyperlink{class_api_ouistreham_1_1_navire}{Navire} $>$ \hyperlink{class_api_ouistreham_1_1_persistance_a2df452ff8706e4661261fbd6bb78f467}{Charge\+Navire} ()
+\begin{DoxyCompactList}\small\item\em Retourne la collection de navires de l\textquotesingle{}application \end{DoxyCompactList}\item 
+static List$<$ \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage} $>$ \hyperlink{class_api_ouistreham_1_1_persistance_afa6630c405be79ae6d95adcbf64fe6ed}{Charge\+Zone\+De\+Stockage} ()
+\begin{DoxyCompactList}\small\item\em Retourne la collection de zones de stockage de l\textquotesingle{}application \end{DoxyCompactList}\item 
+static void \hyperlink{class_api_ouistreham_1_1_persistance_a939761c48644380936f1dae6aa97e0e4}{Sauvegarde} (List$<$ \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage} $>$ collection\+Zone\+De\+Stockage)
+\begin{DoxyCompactList}\small\item\em Sauvegarde la collection de \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage} transmis en paramètre \end{DoxyCompactList}\item 
+static void \hyperlink{class_api_ouistreham_1_1_persistance_a592a3f4399acf3f9b48779e6cfc4d526}{Sauvegarde} (List$<$ \hyperlink{class_api_ouistreham_1_1_navire}{Navire} $>$ collection\+Navire)
+\begin{DoxyCompactList}\small\item\em Sauvegarde la collection de Navires transmis en paramètre \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe permetant de charger et de sauvegarder des collections de l\textquotesingle{}Api Ouistreham 
+
+Les données sont sérialisées puis sauvgardées dans un fichier
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_api_ouistreham_1_1_persistance_a2df452ff8706e4661261fbd6bb78f467}\label{class_api_ouistreham_1_1_persistance_a2df452ff8706e4661261fbd6bb78f467}} 
+\index{Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}!Charge\+Navire@{Charge\+Navire}}
+\index{Charge\+Navire@{Charge\+Navire}!Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}}
+\subsubsection{\texorpdfstring{Charge\+Navire()}{ChargeNavire()}}
+{\footnotesize\ttfamily static List$<$\hyperlink{class_api_ouistreham_1_1_navire}{Navire}$>$ Api\+Ouistreham.\+Persistance.\+Charge\+Navire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Retourne la collection de navires de l\textquotesingle{}application 
+
+\begin{DoxyReturn}{Renvoie}
+Retourne une collection de navires
+\end{DoxyReturn}
+
+
+La collection est vide si aucun \hyperlink{class_api_ouistreham_1_1_navire}{Navire} n\textquotesingle{}a été sauvegardé\mbox{\Hypertarget{class_api_ouistreham_1_1_persistance_afa6630c405be79ae6d95adcbf64fe6ed}\label{class_api_ouistreham_1_1_persistance_afa6630c405be79ae6d95adcbf64fe6ed}} 
+\index{Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}!Charge\+Zone\+De\+Stockage@{Charge\+Zone\+De\+Stockage}}
+\index{Charge\+Zone\+De\+Stockage@{Charge\+Zone\+De\+Stockage}!Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}}
+\subsubsection{\texorpdfstring{Charge\+Zone\+De\+Stockage()}{ChargeZoneDeStockage()}}
+{\footnotesize\ttfamily static List$<$\hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage}$>$ Api\+Ouistreham.\+Persistance.\+Charge\+Zone\+De\+Stockage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Retourne la collection de zones de stockage de l\textquotesingle{}application 
+
+\begin{DoxyReturn}{Renvoie}
+Retourne une collection zone de stockage
+\end{DoxyReturn}
+
+
+La collection est vide si aucune zone n\textquotesingle{}a été sauvegardé\mbox{\Hypertarget{class_api_ouistreham_1_1_persistance_a939761c48644380936f1dae6aa97e0e4}\label{class_api_ouistreham_1_1_persistance_a939761c48644380936f1dae6aa97e0e4}} 
+\index{Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}!Sauvegarde@{Sauvegarde}}
+\index{Sauvegarde@{Sauvegarde}!Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}}
+\subsubsection{\texorpdfstring{Sauvegarde()}{Sauvegarde()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static void Api\+Ouistreham.\+Persistance.\+Sauvegarde (\begin{DoxyParamCaption}\item[{List$<$ \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage} $>$}]{collection\+Zone\+De\+Stockage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Sauvegarde la collection de \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage} transmis en paramètre 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em collection\+Zone\+De\+Stockage} & une collection de \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage}\\
+\hline
+\end{DoxyParams}
+
+
+L\textquotesingle{}application ne sauvegarde qu\textquotesingle{}une seule collection de \hyperlink{class_api_ouistreham_1_1_zone_de_stockage}{Zone\+De\+Stockage}\mbox{\Hypertarget{class_api_ouistreham_1_1_persistance_a592a3f4399acf3f9b48779e6cfc4d526}\label{class_api_ouistreham_1_1_persistance_a592a3f4399acf3f9b48779e6cfc4d526}} 
+\index{Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}!Sauvegarde@{Sauvegarde}}
+\index{Sauvegarde@{Sauvegarde}!Api\+Ouistreham\+::\+Persistance@{Api\+Ouistreham\+::\+Persistance}}
+\subsubsection{\texorpdfstring{Sauvegarde()}{Sauvegarde()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void Api\+Ouistreham.\+Persistance.\+Sauvegarde (\begin{DoxyParamCaption}\item[{List$<$ \hyperlink{class_api_ouistreham_1_1_navire}{Navire} $>$}]{collection\+Navire }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Sauvegarde la collection de Navires transmis en paramètre 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em collection\+Navire} & une collection de Navires\\
+\hline
+\end{DoxyParams}
+
+
+L\textquotesingle{}application ne sauvegarde qu\textquotesingle{}une seule collection de Navires
